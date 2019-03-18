@@ -1,7 +1,7 @@
 
 function readinput(){
   var value = document.getElementById("readme").value;
-  var random = Math.floor((Math.random()*9)+1);
+  var random = Math.floor((Math.random()*10)+1);
   if(random==value){
     document.getElementById("result").innerHTML="Hurrey You Won!!!";
     document.getElementById("random").innerHTML="The number is "+ random;
